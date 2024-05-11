@@ -1,0 +1,140 @@
+@font-face {
+  font-family: "wotfard";
+  src: url(fonts/wotfard-regular-webfont.ttf);
+}
+
+:root {
+  --dark: #223127;
+}
+
+.headshot, .american {
+  width: auto;
+  height: 250px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: var(--dark);
+  padding: 30px;
+}
+
+body {
+  margin: 0;
+  color: white;
+  font-family: "wotfard";
+}
+
+main {
+  padding: 30px;
+}
+
+footer {
+  background-color: var(--dark);
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+
+.header_text_box {
+  height: 75%;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: stretch;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Slight shadow effect */
+}
+
+.header_text_box > * {
+  margin: 10px;
+}
+
+main {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.big_text {
+  font-size: 30px;
+}
+
+.header_icons {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+
+}
+
+.icon {
+  height: 20px;
+}
+
+.main_boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+}
+.box_content {
+  padding: 10px;
+  background-color: white;
+  color: black;
+}
+
+.box_content_header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.box_image {
+  height: 100px;
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  text-align: center;
+}
+
+.box {
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Slight shadow effect */
+}
+
+.credentials {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+
+.work_text {
+  color: black;
+}
+
+.footer_icon {
+  fill: white;
+}
+
+.icons_footer {
+  padding-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.footer_icon_contact {
+  height: 40px;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+}
+
+.footer_text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
